@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.navbar{
+    background-color: red;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.navbar-logo{
+    background-color: greenyellow;
+    height: 70px;
+    width:70px;
+    align-items: center;
+    padding:2px;
+}
+.navbar-logo img{
+   width:100%;   
+}
+.navbar-main li{
+    text-decoration: none;
+    display: inline-flex;
+    border: 2px solid black;
+    padding: 40px 20px;
+    font-size: 20px;
+    font-weight: 500px;
+}
+.navbar-main li a{
+    text-decoration: none;
+
+}
+
+
+
+
