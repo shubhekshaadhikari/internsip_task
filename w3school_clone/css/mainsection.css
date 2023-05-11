@@ -372,6 +372,7 @@
 }
 .prouser-bullet{
     margin: auto;
+    padding-bottom: 25px;
     width: fit-content;
     line-height: 1.75;
 }
@@ -384,7 +385,7 @@
 .bullet-items a:hover{
     color: #04AA6D;
 }
-.prouser a{
+#prouserbtn{
     padding: 15px 40px;
     font-size: 20px;
     border-radius: 50px;
@@ -494,29 +495,26 @@
 }
 .template-content p{
     font-size: 20px;
+    padding: 10px;
 }
 .template-content img{
-    padding: 0px 30px;
     width: 100%;
 }
-.template-btn button{
-    width: 100%;
-    max-width: 350px;
-    display: block;
-    margin: auto;
-    font-size: 20px;
-    padding: 20px 30px;
-    margin-top: 20px;
-    border-radius: 30px;
+.template-btn{
+    padding: 25px;
 }
 .template-btn a{
+    font-size: 20px;
+    padding: 10px 200px;
+    border-radius: 30px;
     text-decoration: none;
     color: #ffffff;
 }
 /**********************************************************         kickstart section            ***********************************************/
 .kickstart{
     background-color: #282A35;
-    padding: 50px 0;
+    padding: 100px 0;
+    position: relative;
 }
 .kick-container{
     width: 100%;
@@ -525,17 +523,134 @@
 }
 .kick-container h1{
     color: #FFC0C7;
-    font-size: 45px;
-    margin: 0;
+    font-size: 50px;
+    font-weight: 900;
+    padding-bottom: 70px;
 }
-.kick-container button{
+.kick-container a{
     border: none;
     border-radius: 20px;
     font-size: 20px;
-    padding: 10px 30px;
-}
-.kick-container a{
+    padding: 15px 30px;
     text-decoration: none;
     color: #ffffff;
-    
+}
+#w3_cert_badge{
+    position: absolute;
+    right: 5%;
+    width: 220px;
+    transform: rotate(10deg);
+    bottom: -15%;
+}
+#w3_cert_arrow{
+    position: absolute;
+    right: 240px;
+    width: 220px;
+    transform: rotate(10deg);
+    bottom: 0;
+    z-index: 1;
+}
+/****************************************how to section and slider********************************************************/
+.howtosection{
+    padding: 50px 10px;
+}
+.howtosection-content{
+    width: 100%;
+    max-width: 650px;
+    text-align: center;
+    margin: auto;
+}
+.howtosection-content h1{
+    font-size: 55px;  
+    font-weight: 600; 
+    padding: 10px;
+}
+.howtosection-content p{
+    font-size: 20px;  
+    padding-bottom: 15px; 
+}
+.sliderlist{
+    display: flex;
+    overflow: hidden;
+}
+.slider{
+    position: relative;
+    background-color: #e3e6e8;
+    border-radius: 5px;
+}
+.sliderbtn{
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.sliderbtn button{
+    font-size: 20px;
+    padding: 20px;
+    border: none;
+    border-radius: 3px;
+    color: #ffffff;
+    background:transparent;
+}
+.sliderbtn button:hover{
+    background-color: #000000;
+    color: #ffffff;
+    opacity: 0.6;
+}
+.slideritem img{
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+}
+.slidernavigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.slidernavigation div{
+    padding: 10px;
+    background-color: #282A35;
+    margin: 3px;
+    border-radius: 10px;
+}
+.howtosection-content p:first-child{
+    position: absolute;
+    top: 20px;
+    left:20px;
+    color: #ffffff;
+}
+.howtosection-content p:last-child{
+    position: relative;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    color: #ffffff;
+}
+.howtosection-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.verticalbox{
+    width: 50px;
+    height: 100px;
+    background-color: #282A35;
+}
+.howtosection-bottom a{
+    text-align:center;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px 150px;
+    background-color: #282A35;
+    border-radius: 40px;
+    font-size: 20px;
+}
+.howtosection-bottom a:hover{
+    background-color: #04AA6D;
 }
