@@ -1,0 +1,80 @@
+.bg-purple{
+    background-color: #9763f6;
+    color: #ffffff;
+}
+.bg-cream{
+    background-color: #FFC0C7;
+    color: #000000;
+}
+.bg-yellow{
+    background-color: #FFF4A3;
+    color: #000000;
+}
+.bg-black{
+    background-color: #282A35;
+    color: #ffffff;
+}
+.bg-white{
+    background-color: #ffffff;
+    color: #000000;
+}
+.bg-green{
+    background-color: #04AA6D;
+    color: #ffffff;
+}
+.bg-pinkwhite{
+    background-color: #F3ECEA;
+    color: #000000;
+}
+.bg-lmint{
+    background-color: #D9EEE1;
+    color: #000000;
+}
+.bg-dmint{
+    background-color: #96D4D4;
+    color: #000000;
+}
+.bg-offwhite{
+    background-color: #E7E9EB;
+    color: #000000;
+}
+.bg-dgreen{
+    background-color: #04AA6D;
+    color: #ffffff;
+}
+.bg-lgreen{
+    background-color: #D9EEE1;
+    color: #000000;
+}
+/************************************************ seperate id color index****************************************************************/
+#html{
+    background-color: #D9EEE1;
+}
+#css{
+    background-color: #FFF4A3;
+}
+#js{
+    background-color: #282A35;
+    color: #ffffff;
+}
+#py{
+    background-color: #F3ECEA;
+}
+#sql{
+    background-color: #96D4D4;
+}
+#code-dot-red{
+    background-color: #ff0000;
+}
+#code-dot-green{
+    background-color: #008000;
+}
+#code-dot-yellow{
+    background-color: #ffff00;
+}
+#w3scholhover{
+    color: #FFC0C7;
+}
+#w3scholhover:hover{
+    color: #059862;
+}
