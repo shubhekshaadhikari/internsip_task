@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*******************************************        Header and navigation menu         *******************************************************/
 .navbar{
     height: 105px;
@@ -152,4 +153,160 @@
     justify-content: center;
     align-items: center;
   
+=======
+/*******************************************        Header and navigation menu         *******************************************************/
+.navbar{
+    height: 105px;
+    width: 100%;
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+.w3logo{
+    padding: 15px 10px;
+    width:70px;
+    height: 100%;
+}
+.w3logo img{
+    width: 100%;
+}
+.navbar-left {
+    display: flex;
+    align-items: center;
+    height:100%;
+    list-style: none;
+    padding: 0 5px;
+}
+.navbar-left .navbar-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px 22px;
+    height: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+}
+.navbar-left .navbar-smallbox{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    text-decoration: none;
+}
+.navbar-left .navbar-item i{
+    padding-top: 15px;
+}
+.navbar-left .navbar-smallbox a{
+    text-decoration: none;
+    padding: 25px;
+    color: #000000;
+}
+.navbar-left .navbar-smallbox a:hover{
+    background-color:#04AA6D;
+    color: #ffffff;
+}
+.navbar-left .navbar-item:hover{
+    background-color:#04AA6D;
+    color: #ffffff;
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    height: 100%;
+    padding-top: 0;
+    padding-left: 150px;
+    list-style: none;
+    gap: 10px;
+}
+.navbar-right a{
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 10px 15px;
+}
+.navbar-right a:last-child:hover{
+    background-color: #04AA6D;
+    color: #ffffff;
+}
+
+/********************************************************     footer          ************************************************************/
+.footer{
+    background-color:#282A35;
+    padding:50px 0;
+    width: 100%;   
+}
+.footer-top{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.footer-top .menu-left a{
+    text-decoration: none;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 5px;
+}
+.menu-right a{
+    text-decoration: none;
+    align-items: center;
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight:500px;
+}
+.footer-top .menu-right a:first-child{
+    border-right: 2px solid #ffffff;
+}
+.fa-brands{
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px;
+}
+.fa-brands:hover{
+    background-color: #ffffff;
+    color: #282A35;
+    font-size: 20px;
+}
+.socialmedia{
+    display: flex;
+    justify-content:flex-end;
+    margin-top: 20px;
+}
+.socialmedia a{
+    margin: 15px 10px;
+}
+.footer-content{
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 1.5;
+}
+.footer-content a:hover{
+    color: #059862;
+}
+.footer-content a{
+    color: #ffffff;
+}
+.footer-thumbs, .fa-regular{
+    color: #ffffff;
+    font-size: 50px;
+    margin-top: 30px;
+}
+.footer-thumbs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+>>>>>>> d0816943f90e5bbee8418ef40b34949d812a641d
 }

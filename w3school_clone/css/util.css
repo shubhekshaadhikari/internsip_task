@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -20,4 +21,28 @@ p{
 }
 svg{
     margin-bottom: -5px;
+=======
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 90px;
+}
+p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.btn{
+    padding: 20px;
+    cursor: pointer;
+}
+.btn-combine{
+    
+}
+svg{
+    margin-bottom: -5px;
+>>>>>>> d0816943f90e5bbee8418ef40b34949d812a641d
 }
